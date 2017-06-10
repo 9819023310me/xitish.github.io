@@ -42,14 +42,14 @@
 }
 div #menu ul li a:hover
 {
-	background-color: #B739F2;
+	background-color: #purple;
 	border-radius:5px;
 	color:white;
 }
 .navbar-toggle
 {
 	margin-left:20px;
-	border-radius:15px;
+	border-radius:10px;
 	float:left;
 }
 .dropdown-menu
