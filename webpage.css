@@ -1,0 +1,152 @@
+@media(max-width: 499px)
+{
+#heading
+{
+	font-family: 'Rancho', serif;
+    font-size: 40px;
+	text-shadow: 4px 4px 4px #aaa;
+	position:relative;
+	top:-30px;
+}
+
+#mylogo
+{
+	height:60px;
+	width:60px;
+	margin-right:10px;
+}
+}
+@media(min-width: 500px)
+{
+#heading
+{
+	font-family: 'Patrick Hand', serif;
+    font-size: 60px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+#mylogo
+{
+	margin-right:50px;
+}
+}
+#heading{
+		color:#B739F2;
+	
+}
+.navtop
+{
+
+	margin-left:30px;
+	font-family:'Patrick Hand';
+	font-size:1.5em;
+}
+div #menu ul li a:hover
+{
+	background-color: #B739F2;
+	border-radius:5px;
+	color:white;
+}
+.navbar-toggle
+{
+	margin-left:20px;
+	border-radius:15px;
+	float:left;
+}
+.dropdown-menu
+{
+	font-size:1.2em;
+	min-width:150px;
+	line-height:300px;
+	background-color:#B739F2;
+	color:white;
+}
+#para
+{
+	line-height:35px;
+	font-family:'Lemonada';
+	font-size:1.5em;
+	text-align:justify;
+	color:white;
+	text-shadow:1px 1px 2px black;
+}
+#para1
+{
+	font-family:'Lemonada';
+	font-size:1.2em;
+	text-align:center;
+	color:#212F3C  ;
+}
+#photo
+{
+	background-image: url("a/pht.jpg "); 
+	height:responsive;
+	width:100%;
+	background-repeat:repeat-y;
+	
+}
+.person
+{
+	text-align:justify
+}
+h3 a:hover
+{
+	text-decoration:none;
+}
+.team
+{
+	padding:10px;
+	background-color:#DFDFDF;
+	margin-top:0;
+	clear:both;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+.well
+{
+	font-size:1.5em;
+	text-align:center;
+	margin:10px 0 0 0;
+	font-family:'Bad Script';
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+@media(min-width: 1000px)
+{
+.slider-head
+{
+	font-family:'Montez';
+	font-size:5em;
+	text-shadow:1px 1px 2px black;
+}
+.p1
+{
+	font-family:'Patrick Hand';
+	font-size:1.5em;
+}
+}
+@media(max-width: 999px)
+{
+.slider-head
+{
+	font-family:'Montez';
+	font-size:2em;
+	text-shadow:1px 1px 2px black;
+}
+.p1
+{
+	font-family:'Patrick Hand';
+	font-size:1.1em;
+}
+}
+#footer
+{
+	font-family:Tempus Sans ITC Regular , Arial;
+	margin-top:10px;
+	margin-bottom:20px;
+	clear:both;
+	padding: 10px;
+	background-color: #999999;
+	color: white;
+	text-align:center;
+}
