@@ -1,8 +1,9 @@
-@media(max-width: 499px)
+
+@media(max-width: 570px)
 {
 #heading
 {
-	font-family: 'Rancho', serif;
+	font-family:'Lemonada' , serif;
     font-size: 40px;
 	text-shadow: 4px 4px 4px #aaa;
 	position:relative;
@@ -16,13 +17,14 @@
 	margin-right:10px;
 }
 }
-@media(min-width: 500px)
+@media(min-width: 571px)
 {
 #heading
 {
-	font-family: 'Patrick Hand', serif;
+	font-family: 'Lemonada', serif;
     font-size: 60px;
 	text-shadow: 4px 4px 4px #aaa;
+	top:-30px;
 }
 #mylogo
 {
@@ -30,21 +32,24 @@
 }
 }
 #heading{
-		color:#B739F2;
+		color:#609CED;
 	
 }
 .navtop
 {
 
 	margin-left:30px;
-	font-family:'Patrick Hand';
-	font-size:1.5em;
+	font-family:'Lemonada';
+	font-size:1em;
 }
 div #menu ul li a:hover
 {
-	background-color: #DADADA;
+	font-family:'Lemonada';
+	background-color: #000000;
 	border-radius:5px;
-	color:black;
+	color:#609CED;
+	box-shadow: inset 0 -3px white;
+	border-radius:0;
 }
 .navbar-toggle
 {
@@ -107,7 +112,7 @@ h3 a:hover
 	font-size:1.5em;
 	text-align:center;
 	margin:10px 0 0 0;
-	font-family:'Bad Script';
+	font-family:'Lemonada';
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 }
@@ -121,7 +126,7 @@ h3 a:hover
 }
 .p1
 {
-	font-family:'Patrick Hand';
+	font-family:'Lemonada';
 	font-size:1.5em;
 }
 }
@@ -135,7 +140,7 @@ h3 a:hover
 }
 .p1
 {
-	font-family:'Patrick Hand';
+	font-family:'Lemonada';
 	font-size:1.1em;
 }
 }
